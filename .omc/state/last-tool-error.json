@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"ssh USER@192.168.3.27 \\\"security unlock-keychain -p 'Ama31043104' ~/Library/Keychains/login.keychain-db && xcrun altool --upload-app -f ~/EnochianKeys/build/export/EnochianKeys.ipa -t ios ...",
+  "error": "Exit code 1\nRunning altool at path '/Applications/Xcode.app/Contents/SharedFrameworks/ContentDeliveryServices.framework/Frameworks/AppStoreService.framework/Support/altool'...\n2026-04-15 14:53:39.976 *** Error: Error uploading '/Users/user/EnochianKeys/build/export/EnochianKeys.ipa'.\n2026-04-15 14:53:39.976 *** Error: No suitable application records were found. Verify your bundle identifier “com.tokyonasu.EnochianKeys” is correct and that you are signed in with an Apple ID that has access to the...",
+  "timestamp": "2026-04-15T05:53:39.529Z",
+  "retry_count": 1
+}
